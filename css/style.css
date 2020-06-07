@@ -35,7 +35,7 @@ body {
 	align-items: center;
 	position: relative;
 	z-index: 1;
-	padding: 0 10%;
+	padding: 0 5%;
 }
 
 .svg-white path {
@@ -51,6 +51,14 @@ body {
 	padding: 30px 0;
 }
 
+h1 {
+	position: absolute;
+	clip: rect(0 0 0 0);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+}
+
 .top-title {
 	font-size: 90px;
 	letter-spacing: 5px;
@@ -62,14 +70,17 @@ body {
 }
 
 .part1 {
-	margin-top: 290px;
+	margin-top: 260px;
 	margin-bottom: 0;
 	text-align: left;
+	align-self: flex-start;
 }
 
 .part2 {
-	margin-top: 0;
+	margin-top: -30px;
+	margin-bottom: 200px;
 	text-align: right;
+	align-self: flex-end;
 }
 
 a {
@@ -80,7 +91,7 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin-bottom: 115px;
+	margin-bottom: 80px;
 }
 
 .button {
@@ -142,11 +153,12 @@ article {
 	height: 908px;
 	width: 566px;
 	z-index: 2;
-	top: -70px;
+	top: -90px;
+	right: 50%;
 }
 
 .sect {
-	padding: 20px 10% 20px 10%;
+	padding: 15px 5% 30px 10%;
 }
 
 .move-right-container {
@@ -255,7 +267,6 @@ article {
 
 .second-article-title {
 	font-size: 80px;
-	line-height: 60px;
 	color: #e7e7e7;
 	font-family: OpenSans-Bold;
 	font-weight: 700;
@@ -273,8 +284,8 @@ article {
 	background-image: url(../images/basketballer_991.png);
 	height: 815px;
 	width: 991px;
-	top: -65px;
-	right: 0;
+	top: -40px;
+	left: 38%;
 	z-index: 2;
 }
 
@@ -324,6 +335,7 @@ article {
 	color: #ffffff;
 	font-family: OpenSans-Regular;
 	font-weight: 300;
+	margin-bottom: 80px;
 }
 
 .sect3 {
@@ -331,28 +343,31 @@ article {
 	flex-wrap: wrap;
 }
 
+.third-part-image {
+	height: 730px;
+	width: 1024px;
+	background-position-x: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .third-part-image,
 .third-part-text {
 	flex-basis: 50%;
-	background-position-x: center;
+
 }
 
 .image-be-active {
 	background-image: url(../images/be-active_1024.jpg);
-	height: 683px;
-	width: 1024px;
+	background-position-x: center;
 }
 
 .image-find-contact {
 	background-image: url(../images/find-contact_1024.jpg);
-	height: 683px;
-	width: 1024px;
 }
 
 .image-work-it {
 	background-image: url(../images/work-it_1024.jpg);
-	height: 683px;
-	width: 1024px;
 }
 
 .third-section-title {
@@ -436,8 +451,8 @@ article {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	margin-top: 240px;
-	margin-bottom: 155px;
+	margin-top: 185px;
+	margin-bottom: 150px;
 }
 
 .button-download {
@@ -450,11 +465,11 @@ article {
 
 .button-download img {
 	margin: 10%;
-	width: 80%;
+	width: 70%;
 }
 
 .footer-information {
-	margin-left: 45px;
+	margin-left: 40px;
 }
 
 .footer-title {
@@ -464,7 +479,7 @@ article {
 	font-weight: 700;
 	text-align: center;
 	text-transform: uppercase;
-	margin: 0 0 12px 0;
+	margin: 5px 0 -7px 0;
 }
 
 .footer-text {
@@ -480,7 +495,7 @@ article {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin-bottom: 270px;
+	margin-bottom: 265px;
 }
 
 @media (max-width: 960px) {
@@ -491,17 +506,19 @@ article {
 
 	.top-title {
 		font-size: 64px;
-		letter-spacing: 3px;
 	}
 
 	.part1 {
-		margin-top: 80px;
+		margin-top: 160px;
+		margin-bottom: 10px;
 	}
 
 	.buttons {
 		display: flex;
 		flex-wrap: wrap;
-		margin-bottom: 95px;
+		margin-top: 95px;
+		margin-bottom: 50px;
+
 	}
 
 	.button {
@@ -537,7 +554,7 @@ article {
 		background-image: url(../images/footballer_497.png);
 		height: 699px;
 		width: 497px;
-		top: -70px;
+		top: -5px;
 		left: -20%;
 	}
 
